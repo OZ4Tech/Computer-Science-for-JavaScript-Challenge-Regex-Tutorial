@@ -10,15 +10,10 @@ A regular expression(regex), can be defined as sequence of characters defining a
 
 - [Anchors](#anchors)
 - [Quantifiers](#quantifiers)
-- [OR Operator](#or-operator)
 - [Character Classes](#character-classes)
-- [Flags](#flags)
 - [Grouping and Capturing](#grouping-and-capturing)
-- [Bracket Expressions](#bracket-expressions)
 - [Greedy and Lazy Match](#greedy-and-lazy-match)
-- [Boundaries](#boundaries)
-- [Back-references](#back-references)
-- [Look-ahead and Look-behind](#look-ahead-and-look-behind)
+
 
 ## Regex Components
 
@@ -26,7 +21,6 @@ A regular expression(regex), can be defined as sequence of characters defining a
 To anchor an email used in this regex expression you'll need to start with `^` in front of the string, and end the string with `$`.
 ### Quantifiers
 Some quantifiers(specifiers of how many instances of a character, group, or character class must be present in the input for a match to be found.) for matching an email in this instance are `+`(matching 0 or 1 of the previous) and `{2, 6}`(matching everything between 2-6).
-### OR Operator
 
 ### Character Classes
 The character class shown in this regex is `/d`. This class takes one degit and matches it.
